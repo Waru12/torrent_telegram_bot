@@ -12,7 +12,7 @@ def shorten(url):
 
     requestHeaders = {
         "Content-type": "application/json",
-        "apikey": "",
+        "apikey": "18821a7effe9461aa79df1a49d7a1b31",
     }
 
     r = requests.post("https://api.rebrandly.com/v1/links",
